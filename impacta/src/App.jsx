@@ -8,8 +8,7 @@ import Impactos from "./pages/impactos";
 const App = () => {
     return (
         <div>
-           
-            
+            <Navbar />
             <Quotation />
             <Impactos />
             <Values />
