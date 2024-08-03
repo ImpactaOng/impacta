@@ -13,10 +13,10 @@ import Impactos from "./pages/impactos";
 const App = () => {
     return (
         <div>
-            {/*<Navbar />
+            <Navbar />
             <Home />
             <Quotation />
-            <Impactos />*/}
+            <Impactos />
             <Footer />
         </div>
     );
