@@ -1,10 +1,10 @@
-import React from "react";
-import Quotation from "./pages";
+
+import TrilhaAnos from "./pages/TrilhaAnos/index"
 
 const App = () => {
     return (
         <div>
-            <Quotation />
+            <TrilhaAnos />
         </div>
     );
 };
