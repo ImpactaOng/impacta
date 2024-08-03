@@ -40,15 +40,15 @@ const Values = () => {
                 className="w-full h-full flex justify-center items-center"
             >
                 <SwiperSlide className="!w-full  flex justify-center items-center s1180:!w-2/4 s1380:!w-2/6">
-                    <CardValue />
+                    <CardValue title="NOSSA MISSÃO"/>
                 </SwiperSlide>
 
                 <SwiperSlide className="!w-full  flex justify-center items-center s1180:!w-2/4 s1380:!w-2/6">
-                    <CardValue />
+                    <CardValue title="VISÃO"/>
                 </SwiperSlide>
 
                 <SwiperSlide className="!w-full flex justify-center items-center s1180:!w-2/4 s1380:!w-2/6">
-                    <CardValue />
+                    <CardValue title="VALORES"/>
                 </SwiperSlide>
             </Swiper>
         </section>
