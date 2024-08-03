@@ -1,5 +1,5 @@
 import React from "react";
-import Quotation from "./pages";
+import Quotation from "./pages/Quotation";
 
 const App = () => {
     return (
