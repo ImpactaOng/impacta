@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../../assets/logoImpacta.png'
 
-export default function () {
+export default function Navbar() {
     return (
         <div>
             <nav className="flex justify-around items-center bg-white w-{100%} h-32">
