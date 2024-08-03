@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import Quotation from "./pages";
 
 const App = () => {
-  return (
-    <div>
-      <h1 className='bg-red-800'>ola mundo</h1>
-    </div>
-  )
-}
+    return (
+        <div>
+            <Quotation />
+        </div>
+    );
+};
 
-export default App
+export default App;
