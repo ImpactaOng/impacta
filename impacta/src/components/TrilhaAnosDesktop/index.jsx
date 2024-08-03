@@ -1,6 +1,6 @@
 const TrilhaAnosDesktop = () => {
    return (
-      <div className="w-1 h-screen bg-corPrincipal right-1/2 relative text-white">
+      <div className="w-1  bg-corPrincipal right-1/2 relative text-white">
          <div className="w-6 h-6 rounded-full bg-corPrincipal absolute -left-2.5 top-8 z-20"></div>
          <div className="w-52 h-1 bg-corPrincipal absolute right-1 top-10 s480:w-58 s680:w-80">
             <h1 className="text-4xl mt-4 w-3/4 text-right font-semibold s480:ml-4 s680:ml-0">

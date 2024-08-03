@@ -25,7 +25,7 @@ const TrilhaAnos = () => {
    }, []);
 
    return (
-      <section className="w-full h-screen bg-fundoSecundario flex justify-end">
+      <section className="w-full h-[140vh] bg-fundoSecundario flex justify-end">
          {isMobile == 2 ? <TrilhaAnosMobile /> : <TrilhaAnosDesktop />}
       </section>
    );

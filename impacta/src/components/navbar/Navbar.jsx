@@ -23,7 +23,7 @@ export default function Navbar() {
             <div className="w-9/12 items-center justify-around hidden s1180:flex">
                 <ul className=" text-black  font-semibold flex justify-center items-center gap-16 text-xl">
                     <li className="cursor-pointer s1180:text-base s1380:text-xl">
-                        Home
+                        Início
                     </li>
                     <li className="cursor-pointer s1180:text-base s1380:text-xl">
                         Quem Somos
