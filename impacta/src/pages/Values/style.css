@@ -1,0 +1,8 @@
+
+.swiper-pagination-bullet {
+    background-color: #f8a648;  /* Altere para a cor desejada */
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #FA8400;  /* Altere para a cor desejada */
+}

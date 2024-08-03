@@ -4,7 +4,7 @@ import quotationBt from "./assets/aspas-bt.png";
 
 const Quotation = () => {
     return (
-        <section className="bg-corPrincipal w-full h-96 flex items-center justify-center relative">
+        <section className="bg-corPrincipal w-full h-96 flex items-center justify-center relative overflow-hidden">
             <img
                 className="absolute -top-0 left-0 s880:w-1/6 s880:-top-10"
                 src={quotationTp}
