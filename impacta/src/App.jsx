@@ -10,9 +10,9 @@ const App = () => {
     return (
         <div>
             <Navbar />
+            <Home />
             <Quotation />
             <Impactos />
-            <Values />
             <Footer />
         </div>
     );
