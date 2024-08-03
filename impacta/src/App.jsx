@@ -1,9 +1,13 @@
 import React from 'react'
+import Navbar from './components/navbar/Navbar'
+import Home from './pages/home/Home'
+import Impactos from './pages/impactos/index'
 
 const App = () => {
   return (
     <div>
-      <h1 className='bg-red-800'>ola mundo</h1>
+      < Navbar />
+     < Home/>
     </div>
   )
 }
