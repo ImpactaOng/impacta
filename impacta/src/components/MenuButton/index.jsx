@@ -1,14 +1,18 @@
 import React from "react";
 import "./style.css";
 
-const MenuButton = () => {
+const MenuButton = ({ handleNavDrop, openNavDrop }) => {
     return (
-        <label className="burger s1180:!hidden" for="burger">
-            <input type="checkbox" id="burger" />
+        <div
+            className="burger s1180:!hidden"
+            for="burger"
+            onClick={handleNavDrop}
+        >
+            <input type="checkbox" id="burger" checked={openNavDrop} />
             <span></span>
             <span></span>
             <span></span>
-        </label>
+        </div>
     );
 };
 

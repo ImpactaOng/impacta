@@ -1,7 +1,3 @@
-
-
-
-
 import React from "react";
 import Quotation from "./pages/Quotation";
 import Values from "./pages/Values";
@@ -17,6 +13,7 @@ const App = () => {
             <Quotation />
             <Impactos />
             <Values />
+            <Footer />
         </div>
     );
 };
