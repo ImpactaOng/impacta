@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../../assets/logoImpacta.png";
 import MenuButton from "../MenuButton";
 
-export default function () {
+export default function Navbar() {
     return (
         <nav className="flex flex-row-reverse justify-around items-center bg-white w-{100%} h-32 s1180:flex-row">
             <img className="h-10 cursor-pointer" src={logo} alt="" />
