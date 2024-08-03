@@ -1,15 +1,14 @@
-import React from 'react'
-import Navbar from './components/navbar/Navbar'
-import Home from './pages/home/Home'
-import Impactos from './pages/impactos/index'
+import React from "react";
+import Quotation from "./pages/Quotation";
+import Values from "./pages/Values";
 
 const App = () => {
-  return (
-    <div>
-      < Navbar />
-     < Home/>
-    </div>
-  )
-}
+    return (
+        <div>
+            <Quotation />
+            <Values />
+        </div>
+    );
+};
 
-export default App
+export default App;
