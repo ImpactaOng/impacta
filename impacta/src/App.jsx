@@ -5,6 +5,7 @@ import Footer from "./components/Footer/Index";
 import Home from "./pages/home/Home";
 import Navbar from "./components/navbar/Navbar";
 import Impactos from "./pages/impactos";
+import Trilhas from "./pages/Trilhas";
 
 const App = () => {
     return (
@@ -12,8 +13,10 @@ const App = () => {
             {/*<Navbar />
             <Home />
             <Quotation />
-            <Impactos />*/}
-            <Footer />
+            <Impactos /> 
+            <Footer />*/}
+            <Trilhas />
+            
         </div>
     );
 };

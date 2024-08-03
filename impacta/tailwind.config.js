@@ -28,6 +28,21 @@ export default {
                 s1880: "1880px",
                 s1920: "1920px",
             },
+
+            backgroundSize: {
+                bgImage380: "100%",
+                bgImage980: '98%',
+                bgImage1080: '88%',
+                bgImage1180: '82%',
+                bgImage1280: '75%',
+                bgImage1380: '69%',
+                bgImage1480: '64%',
+                bgImage1580: '61%',
+                bgImage1680: '58%',
+                bgImage1780: '55%',
+                bgImage1880: '48%',
+              },
+              
         },
     },
     plugins: [],
