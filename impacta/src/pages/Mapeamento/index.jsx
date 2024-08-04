@@ -1,5 +1,8 @@
 import { GoogleMap, Polygon, useJsApiLoader } from "@react-google-maps/api";
 import React from "react";
+import casa from "./assets/casa-alagada.png";
+import chuva from "./assets/chuva.png";
+import sol from "./assets/sun.png";
 
 const Mapeamento = () => {
     const { isLoaded } = useJsApiLoader({
@@ -107,7 +110,7 @@ const Mapeamento = () => {
             center: { lat: -23.6219, lng: -46.5628 },
         },
         {
-            name: "Santo André",
+            name: "Ribeirão Preto",
 
             polygonCoordinates: [
                 { lat: -21.1072, lng: -47.9435 }, // Topo Esquerda
@@ -159,20 +162,11 @@ const Mapeamento = () => {
         },
     ];
 
-    const polygonCoordinates = [
-        { lat: -23.524, lng: -46.7863 }, // Topo Esquerda
-        { lat: -23.524, lng: -46.7728 }, // Topo Direita
-        { lat: -23.5323, lng: -46.7863 }, // Baixo Direita
-        { lat: -23.5323, lng: -46.7863 }, // Baixo Esquerda
-    ];
-
-    const center = { lat: -23.5282, lng: -46.7796 };
-
     return (
-        <div className="w-full h-screen">
+        <div className="w-full h-screen flex flex-col justify-center items-center bg-corSecudanria">
             {isLoaded ? (
                 <GoogleMap
-                    mapContainerStyle={{ width: "100%", height: "100%" }}
+                    mapContainerStyle={{ width: "100%", height: "50%" }}
                     center={neighborhood[2].center}
                     zoom={15}
                 >
@@ -190,6 +184,24 @@ const Mapeamento = () => {
             ) : (
                 <></>
             )}
+
+            <div className="flex w-11/12 h-2/4 justify-center items-center gap-20 cursor-pointer">
+                <div className="w-1/6 h-96 bg-corPrincipal flex flex-col justify-around items-center">
+                    <h3 className="text-xl w-4/5 text-center font-bold text-white">Probabilidade de alagamento</h3>
+                    <img src={casa} alt="" />
+                    <h4 className="font-bold text-white text-3xl">96%</h4>
+                </div>
+                <div className="w-1/6 h-96 bg-corPrincipal flex flex-col justify-around items-center cursor-pointer">
+                    <h3 className="text-xl w-4/5 text-center font-bold text-white">Probabilidade de chuva</h3>
+                    <img src={casa} alt="" />
+                    <h4 className="font-bold text-white text-3xl">78%</h4>
+                </div>
+                <div className="w-1/6 h-96 bg-corPrincipal flex flex-col justify-around items-center cursor-pointer">
+                    <h3 className="text-xl w-4/5 text-center font-bold text-white">Probabilidade de calor excessivo</h3>
+                    <img src={casa} alt="" />
+                    <h4 className="font-bold text-white text-3xl">18%</h4>
+                </div>
+            </div>
         </div>
     );
 };
