@@ -35,6 +35,7 @@ export const Trilhas = () => {
                     {dataBotaoTrilha.map((botaoTrilha, index) => (
                         <BotaoTrilha key={index} dados={botaoTrilha} />
                     ))}
+                    
                 </div>
                 <div className='w-72 h-14 bg-corPrincipal rounded-xl flex items-center justify-center cursor-pointer'><p className='text-3xl font-semibold text-white'>Quiz</p></div>
             </div>
