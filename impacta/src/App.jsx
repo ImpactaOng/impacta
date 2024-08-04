@@ -9,6 +9,7 @@ import TrilhaAnos from "./pages/TrilhaAnos/index";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import Main from "./pages/Main";
 import Login from "./pages/Login";
+import Mapeamento from "./pages/Mapeamento";
 
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
             <Routes>
                 <Route path="/" element={<Main />} />
                 <Route path="/login" element={<Login />} />
+                <Route path="/mapeamento" element={<Mapeamento />} />
             </Routes>
         </Router>
     );
