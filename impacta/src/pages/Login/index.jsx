@@ -50,12 +50,12 @@ const Login = () => {
                                 className="h-14 rounded-2xl bg-white bg-opacity-20 px-6 outline-none"
                             />
                             <input
-                                type="text"
+                                type="password"
                                 placeholder="Senha"
                                 className="h-14 rounded-2xl bg-white bg-opacity-20 px-6 outline-none"
                             />
                             <input
-                                type="text"
+                                type="password"
                                 placeholder="Confirmar Senha"
                                 className="h-14 rounded-2xl bg-white bg-opacity-20 px-6 outline-none"
                             />
@@ -68,7 +68,7 @@ const Login = () => {
                                 className="h-14 rounded-2xl bg-white bg-opacity-20 px-6 outline-none"
                             />
                             <input
-                                type="text"
+                                type="password"
                                 placeholder="Senha"
                                 className="h-14 rounded-2xl bg-white bg-opacity-20 px-6 outline-none"
                             />
