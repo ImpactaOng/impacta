@@ -11,7 +11,7 @@ const Main = () => {
     return (
         <>
             <Navbar />
-            <Home />
+            <Home/>
             <TrilhaAnos />
             <Quotation />
             <Impactos />
