@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Login = () => {
     const [changeMode, setChangeMode] = useState(false);
@@ -75,8 +76,13 @@ const Login = () => {
                         </form>
                     )}
 
-                    <div className="w-full h-12 flex justify-center items-center bg-corPrincipal rounded-2xl text-white">
-                        {!changeMode ? "Cadastro" : "Login"}
+                    <div
+                        className="w-full h-12 flex justify-center items-center bg-corPrincipal rounded-2xl text-white cursor-pointer"
+                        onClick={() => setChangeMode(true)}
+                    >
+                        <Link to={"/"}>
+                            {!changeMode ? "Cadastro" : "Login"}
+                        </Link>
                     </div>
                 </div>
             </div>

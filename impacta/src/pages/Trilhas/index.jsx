@@ -2,6 +2,7 @@ import React from "react";
 import trilhaUm from "../../assets/fotoTrilhaUm.png";
 import { BotaoTrilha } from "./BotaoTrilha";
 import fotoTrilhaHd from "../../assets/fotoTrilhaHd.png";
+import { Link } from "react-router-dom";
 
 export const Trilhas = () => {
     const dataBotaoTrilha = [
@@ -44,7 +45,12 @@ export const Trilhas = () => {
                     ))}
                 </div>
                 <div className="w-72 h-14 bg-corPrincipal rounded-xl flex items-center justify-center cursor-pointer">
-                    <p className="text-3xl font-semibold text-white">Quiz</p>
+                    <Link
+                        to={"/quiz"}
+                        className="text-3xl font-semibold text-white"
+                    >
+                        Quiz
+                    </Link>
                 </div>
             </div>
         </section>
