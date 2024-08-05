@@ -42,7 +42,7 @@ Baixe o projeto em seu computador através do comando:
 
 Após a instalação:
 
-1. Clique com o botão direito do mouse na pasta `inclui-dev-website/inclui-dev-website`.
+1. Clique com o botão direito do mouse na pasta `impacta\impacta`.
 2. Selecione "Abrir no Terminal".
 
 #
