@@ -167,11 +167,11 @@ const Mapeamento = () => {
             {isLoaded ? (
                 <GoogleMap
                     mapContainerStyle={{ width: "100%", height: "50%" }}
-                    center={neighborhood[2].center}
+                    center={neighborhood[1].center}
                     zoom={15}
                 >
                    <Polygon
-                        paths={neighborhood[2].polygonCoordinates}
+                        paths={neighborhood[1].polygonCoordinates}
                         options={{
                             fillColor: "red",
                             fillOpacity: 0.4,
