@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "../../assets/logoImpacta.png";
 import NavDrop from "../NavDrop";
 import MenuButton from "../MenuButton";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
     const [openNavDrop, setOpenNavDrop] = useState(false);
@@ -26,27 +27,36 @@ export default function Navbar() {
                         Início
                     </li>
                     <li className="cursor-pointer s1180:text-base s1380:text-xl">
-                        Quem Somos
+                        <a href="#sobre">Sobre</a>
                     </li>
                     <li className="cursor-pointer text-corPrincipal s1180:text-base s1380:text-xl">
-                        Quiz
+                        Trilha
                     </li>
-                    <li className="cursor-pointer text-corPrincipal s1180:text-base s1380:text-xl">
+                    <Link
+                        to={"/mapeamento"}
+                        className="cursor-pointer text-corPrincipal s1180:text-base s1380:text-xl"
+                    >
                         Mapeamento
-                    </li>
+                    </Link>
                 </ul>
                 <div className="flex justify-center items-center gap-3">
-                    <div className="w-40 h-12 flex items-center justify-center border-4 border-corSecudanria rounded-2xl cursor-pointer s1180:w-32 s1180:h-11 s1380:w-40 s1380:h-12">
-                        <p className="text-corSecudanria font-semibold text-xl">
+                    <Link
+                        to={"/login"}
+                        className="w-40 h-12 flex items-center justify-center border-4 border-corSecudanria rounded-2xl cursor-pointer s1180:w-32 s1180:h-11 s1380:w-40 s1380:h-12"
+                    >
+                        <p className="text-corSecudanria font-semibold text-xl ">
                             Entrar
                         </p>
-                    </div>
+                    </Link>
                     <div className="w-1 h-12 bg-corSecudanria  s1180:h-11"></div>
-                    <div className="w-40 h-12 flex items-center justify-center bg-corSecudanria rounded-2xl cursor-pointer s1180:w-32 s1180:h-11 s1380:w-40 s1380:h-12">
+                    <Link
+                        to={"/login"}
+                        className="w-40 h-12 flex items-center justify-center bg-corSecudanria rounded-2xl cursor-pointer s1180:w-32 s1180:h-11 s1380:w-40 s1380:h-12"
+                    >
                         <p className="text-white font-semibold text-xl">
                             Cadastre-se
                         </p>
-                    </div>
+                    </Link>
                 </div>
             </div>
             {openNavDrop && (

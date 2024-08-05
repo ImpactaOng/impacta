@@ -170,7 +170,7 @@ const Mapeamento = () => {
                     center={neighborhood[2].center}
                     zoom={15}
                 >
-                    <Polygon
+                   <Polygon
                         paths={neighborhood[2].polygonCoordinates}
                         options={{
                             fillColor: "red",
@@ -187,21 +187,28 @@ const Mapeamento = () => {
 
             <div className="flex w-11/12 h-2/4 justify-center items-center gap-20 cursor-pointer">
                 <div className="w-1/6 h-96 bg-corPrincipal flex flex-col justify-around items-center">
-                    <h3 className="text-xl w-4/5 text-center font-bold text-white">Probabilidade de alagamento</h3>
+                    <h3 className="text-xl w-4/5 text-center font-bold text-white">
+                        Probabilidade de alagamento
+                    </h3>
                     <img src={casa} alt="" />
                     <h4 className="font-bold text-white text-3xl">96%</h4>
                 </div>
                 <div className="w-1/6 h-96 bg-corPrincipal flex flex-col justify-around items-center cursor-pointer">
-                    <h3 className="text-xl w-4/5 text-center font-bold text-white">Probabilidade de chuva</h3>
+                    <h3 className="text-xl w-4/5 text-center font-bold text-white">
+                        Probabilidade de chuva
+                    </h3>
                     <img src={casa} alt="" />
                     <h4 className="font-bold text-white text-3xl">78%</h4>
                 </div>
                 <div className="w-1/6 h-96 bg-corPrincipal flex flex-col justify-around items-center cursor-pointer">
-                    <h3 className="text-xl w-4/5 text-center font-bold text-white">Probabilidade de calor excessivo</h3>
+                    <h3 className="text-xl w-4/5 text-center font-bold text-white">
+                        Probabilidade de calor excessivo
+                    </h3>
                     <img src={casa} alt="" />
                     <h4 className="font-bold text-white text-3xl">18%</h4>
                 </div>
             </div>
+            
         </div>
     );
 };

@@ -2,6 +2,7 @@ import React from "react";
 import fotoHome from "../../assets/fotoHome.png";
 import fotoQueimada from "../../assets/fotoQueimada.png";
 import fotoUsina from "../../assets/fotoUsina.png";
+import { Link } from "react-router-dom";
 
 export default function Home() {
     return (
@@ -46,11 +47,14 @@ export default function Home() {
                             mundo mais sustentável e consciente. Explorar,
                             aprender e agir: isso é Impacta.
                         </p>
-                        <div className=" bg-corPrincipal w-72 h-10  flex justify-center rounded-[50px] items-center text-x cursor-pointer">
+                        <Link
+                            to={"/mapeamento"}
+                            className=" bg-corPrincipal w-72 h-10  flex justify-center rounded-[50px] items-center text-x cursor-pointer"
+                        >
                             <p className="font-semibold text-white">
                                 Mapeamento local
                             </p>
-                        </div>
+                        </Link>
                     </div>
                 </div>
             </main>
