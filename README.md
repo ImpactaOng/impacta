@@ -26,7 +26,7 @@ Para executar nossa plataforma localmente, é necessário ter em seu dispositivo
 Baixe o projeto em seu computador através do comando:
 
 ```bash
-git clone https://github.com/IncluiDev/inclui-dev-website.git
+  https://github.com/ImpactaOng/impacta.git
 ```
 
 **ou**
