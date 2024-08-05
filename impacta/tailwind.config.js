@@ -8,6 +8,7 @@ export default {
                 corSecudanria: "#454545",
                 fundoPrincipal: "#181A1C",
                 fundoSecundario: "#27292E",
+                fundoQuiz: "#E9E2D9",
             },
             screens: {
                 s380: "380px",

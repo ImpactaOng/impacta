@@ -29,9 +29,9 @@ export default function Navbar() {
                     <li className="cursor-pointer s1180:text-base s1380:text-xl">
                         <a href="#sobre">Sobre</a>
                     </li>
-                    <li className="cursor-pointer text-corPrincipal s1180:text-base s1380:text-xl">
+                    <Link to={"/trilhas"} className="cursor-pointer text-corPrincipal s1180:text-base s1380:text-xl">
                         Trilha
-                    </li>
+                    </Link>
                     <Link
                         to={"/mapeamento"}
                         className="cursor-pointer text-corPrincipal s1180:text-base s1380:text-xl"
