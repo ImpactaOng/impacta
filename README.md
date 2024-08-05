@@ -7,7 +7,6 @@
 #
 ### DIFERENCIAIS
 
-- 
 - Vontade de mudar o mundo.
 - Comprometimento com a comunidade.
 - Utilização de boas práticas de desenvolvimento.
