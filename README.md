@@ -1,7 +1,8 @@
 <h1 align=center>IMPACTA</h1>
 
 <p align="center">
-  <img src="" style="border-radius: 15px;">
+  <img src="https://github.com/user-attachments/assets/3d4602e3-3869-42c9-b86d-48511a76c8d8" style="border-radius: 15px;">
+
 </p>
 
 #
