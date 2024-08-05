@@ -72,7 +72,7 @@ E aperte a tecla `Enter`
 Abra a janela do seu navegador web padrão e acesse o seguinte endereço pela barra de pesquisa:
 
 ```bash
-http://localhost:5123
+http://localhost:5173
 ```
 
 #
